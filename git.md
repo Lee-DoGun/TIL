@@ -134,7 +134,7 @@ $ git remote add origin {github url}
 
 
 
-### 2. push - 원격 저장소로 업로드
+### 2. `push` - 원격 저장소로 업로드
 
 ```bash
 $ git push origin master
@@ -144,3 +144,12 @@ origin 이라는 이름의 원격 저장소로 commit  기록들을 업로드한
 
 이후 변경사항이 생길 때마다, add - commit - push를 반복한다.
 
+
+
+### 3. `pull` - 원격 저장소로부터 불러오기
+
+```bash
+$ git pull origin master
+```
+
+`origin`이라는 이름의 원격 저장소로부터 새로운 commit 기록들을 불러온다.
